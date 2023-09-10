@@ -1,0 +1,41 @@
+.email {
+  background-color: rgb(232, 232, 232);
+  padding: 0.5em 0.5em 0.5em;
+  display: grid;
+  grid-template-rows: 40px 300px;
+  grid-template-columns: 110px 300px;
+}
+
+button {
+  margin: 0.5rem;
+}
+.item-4 button {
+  height: 15px;
+  font-size: 0.5em;
+}
+.item-1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.item-2 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.item-3 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.item-4 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
