@@ -54,3 +54,20 @@ button {
 .side-nav-email div:hover {
   background-color: rgb(167, 122, 63);
 }
+
+.bold {
+  background-color: rgb(60, 75, 75);
+}
+
+.yellowStar {
+  background-image: "/images/yellow-star.png";
+}
+
+.blackStar {
+  background-image: "/images/.blackStar.png";
+}
+img {
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+}
