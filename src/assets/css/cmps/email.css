@@ -9,11 +9,12 @@
 button {
   margin: 0.5rem;
 }
-.item-4 button {
+.main-content button {
   height: 15px;
   font-size: 0.5em;
 }
 .item-1 {
+  background-color: rgb(112, 154, 140);
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 1;
@@ -21,21 +22,35 @@ button {
 }
 
 .item-2 {
+  background-color: rgb(112, 154, 140);
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 2;
   grid-column-end: 2;
 }
 
-.item-3 {
+.side-nav-email {
+  background-color: antiquewhite;
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 1;
 }
-.item-4 {
+.main-content {
+  background-color: rgb(141, 165, 165);
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 2;
+}
+.main-content div:hover {
+  background-color: rgb(46, 185, 185);
+}
+
+.main-content div {
+  display: flex;
+}
+
+.side-nav-email div:hover {
+  background-color: rgb(167, 122, 63);
 }

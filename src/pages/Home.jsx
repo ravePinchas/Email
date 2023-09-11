@@ -1,5 +1,5 @@
 import imgUrl from "../assets/imgs/react.png";
-import { Email } from "./Email";
+import { Email } from "./EmailIndex";
 
 export function Home() {
   return (
